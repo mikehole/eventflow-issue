@@ -1,0 +1,8 @@
+version: '3'
+
+services:
+  eventflowinlimuxcontainer:
+    image: eventflowinlimuxcontainer
+    build:
+      context: .
+      dockerfile: EventFlowInLimuxContainer/Dockerfile

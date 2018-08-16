@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.2024
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EventFlowInLimuxContainer", "EventFlowInLimuxContainer\EventFlowInLimuxContainer.csproj", "{B8464894-5BBF-4999-BB14-50B16F6DC0F6}"
+EndProject
+Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{F59E73CF-ABB4-41B9-8DA3-4F4AF57AF235}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B8464894-5BBF-4999-BB14-50B16F6DC0F6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B8464894-5BBF-4999-BB14-50B16F6DC0F6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B8464894-5BBF-4999-BB14-50B16F6DC0F6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B8464894-5BBF-4999-BB14-50B16F6DC0F6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F59E73CF-ABB4-41B9-8DA3-4F4AF57AF235}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F59E73CF-ABB4-41B9-8DA3-4F4AF57AF235}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F59E73CF-ABB4-41B9-8DA3-4F4AF57AF235}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F59E73CF-ABB4-41B9-8DA3-4F4AF57AF235}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {CAD0E011-13C5-4E1B-B337-85EA26ADF6E5}
+	EndGlobalSection
+EndGlobal
